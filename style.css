@@ -1,16 +1,16 @@
 body {
-    background-color: #add8e6;
+    background-color: #ffbe6f;
 }
 
 h1 {
-    color: #00008b;
+    color: #a51d2d;
     text-align: center;
 }
 
 p, th, td, label {
-    font-family: Arial, sans-serif;
+    font-family: Verdana, sans-serif;
     font-size: 18px;
-    color: #1a1a1a;
+    color: #000000;
 }
 
 table, th, td {
@@ -18,12 +18,12 @@ table, th, td {
 }
 
 th {
-    background-color: #dddddd;
+    background-color: #f66151;
     color: #000000;
 }
 
 header {
-    background-color: #000080;
+    background-color: #c64600;
     color: #ffffff;
     padding: 20px;
 }
@@ -40,14 +40,19 @@ nav a:hover {
 }
 
 footer {
-    background-color: #41397e;
+    background-color: #c64600;
     color: #ffffff;
     text-align: center;
     padding: 10px;
 }
 
+.destacat {
+    background-color: #613583;
+    font-weight: bold;
+}
+
 button {
-    background-color: #040080;
+    background-color: #613583;
     color: #ffffff;
     padding: 10px 20px;
     border: none;
@@ -56,13 +61,13 @@ button {
 }
 
 button:hover {
-    background-color: #3f2f63;
+    background-color: #dc8add;
 }
 
 img {
     width: 300px;
     border-radius: 10%;
-    border: 3px solid #000080;
+    border: 3px solid #613583;
 }
 
 input, textarea {
@@ -72,5 +77,5 @@ input, textarea {
 }
 
 input:focus, textarea:focus {
-    border-color: #0000ff;
+    border-color: #613583;
 }
